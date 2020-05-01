@@ -1,0 +1,311 @@
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+html{
+    font-family: 'Nunito' sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+    background: rgb(245, 246, 251);
+}
+
+.wrapper{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 25%;
+}
+
+.wrapper .box .box-all .content a img{
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+    position: relative;
+
+}
+.wrapper .box .box-all .content-2{
+    background-color: rgb(255, 183, 131);
+
+}
+.wrapper .box .box-all .content-2:hover{
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(255, 183, 131, 0.8),
+    -2px -2px 8px rgba(255, 183, 131, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 183, 131);
+
+}
+.wrapper .box .box-all .content-3{
+    background-color: rgb(144, 140, 255);
+}
+.wrapper .box .box-all .content-3:hover{
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(144, 140, 255, 0.8),
+    -2px -2px 8px rgba(144, 140, 255, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: rgb(144, 140, 255);
+
+}
+.wrapper .box .box-all .content-1{
+    background-color: rgb(251, 111, 112);
+
+}
+.wrapper .box .box-all .content-1:hover{
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(251, 111, 112, 0.8),
+    -2px -2px 8px rgba(255, 255, 255, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: rgb(251, 111, 112);
+
+}
+
+.wrapper .box .box-all .content{
+   height: 39px;
+   width: 39px;
+   border-radius: 50%;
+   position: relative;
+   top: 16px;
+   left: 18px;
+   padding: 0;
+  
+}
+
+.wrapper .box .box-all h6{
+    color: rgb(0, 0, 0);
+    padding-top: 22px;
+    text-align: center;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.wrapper .box .box-all:hover{
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    -2px -2px 8px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.wrapper .box .box-all{
+    border-radius: 7px;
+    width: 76px;
+    margin: 10px;
+    height: 76px;
+    background: rgb(245, 246, 251);
+    position: relative;
+    align-self: center;
+}
+
+.wrapper .box{
+    width: auto;
+    border-radius: 10px;
+    height: 120px;
+    background: rgb(245, 246, 251);
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    -2px -2px 8px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+    margin: 18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.wrapper .container p a{
+    text-decoration: none;
+    color: rgb(145, 129, 233);
+
+}
+
+.wrapper .container p{
+    text-align: center;
+    font-size: 14px;
+    padding: 40px;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    text-transform: none;
+    font-weight: 200;
+}
+
+.wrapper .container:hover{
+    box-shadow: none;
+}
+
+.wrapper .container{
+    width: auto;
+    height: 55px;
+    background: rgb(245, 246, 251);
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+    box-shadow: inset -2px -2px 8px rgb(255, 255, 255),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset -2px -2px 8px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.wrapper .btn{
+    width: auto;
+    height: 19%;
+    background: rgb(245, 246, 251);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .btn .btn-all a{
+    text-decoration: none;
+    text-transform: none;
+}
+.wrapper .btn .btn-all a h6{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 12px;
+    color: rgb(0, 140, 255);
+}
+
+.wrapper .btn .btn-cont a h6:hover{
+    color: white;
+
+}
+
+.wrapper .btn .btn-cont:hover{
+    background: rgb(111, 178, 255);
+
+}
+
+.wrapper .btn .btn-cont{
+    text-align: center;
+    height: 40px;
+    width: 40%;
+    background: rgb(245, 246, 251);
+    position: relative;
+    margin: 10px;
+    top: 4%;
+    right: 2%;
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    -2px -2px 8px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.wrapper .btn .btn-can a h6:hover{
+    color: white;
+
+}
+
+.wrapper .btn .btn-can:hover{
+    background: rgb(111, 178, 255);
+
+}
+
+.wrapper .btn .btn-can{
+    width: 40%;
+    background: rgb(245, 246, 251);
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    top: 4%;
+    left: 2%;
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    -2px -2px 8px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.wrapper .btn .btn-all{
+    border-radius: 30px;
+    ;
+}
+
+
+@media (max-width:500px){
+    .wrapper{
+        width: 80%;
+        left: 10%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .btn:hover{
+    box-shadow: inset -2px -2px 8px rgb(255, 255, 255),
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 8px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.c-btn:hover{
+    box-shadow: inset -2px -2px 8px rgb(255, 255, 255),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset -2px -2px 8px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.c-btn{
+    position: absolute;
+    top: 15%;
+    left: 48%;
+    background: rgb(243, 243, 243);
+    padding: 2rem 5rem;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    box-shadow: -2px -2px 8px rgb(255, 255, 255),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    -2px -2px 8px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+.btn{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: rgb(243, 243, 243);
+    padding: 2rem 5rem;
+    border-radius: 35px;
+    box-shadow:     -2px -2px 8px rgb(255, 255, 255),
+                    -2px -2px 12px rgba(255, 255, 255, 0.5),
+                    -2px -2px 8px rgba(255, 255, 255, 0.1),
+                    2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(17, 17, 17);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+} */
